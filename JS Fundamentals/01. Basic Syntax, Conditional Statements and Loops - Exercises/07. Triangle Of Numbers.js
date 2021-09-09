@@ -1,0 +1,13 @@
+function triangleOfNumbers(n){
+    
+    for(let row = 1; row <= n; row++){
+        let output = "";
+        for(let number = 1; number <= row; number++){
+            output += `${row} `;
+
+        }
+        console.log(output);
+    }
+    
+}
+triangleOfNumbers(3)
